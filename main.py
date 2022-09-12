@@ -14,5 +14,5 @@ for movie in movies:
 movies = movies_titles[::-1]
 
 with open('movies.txt', 'w', encoding="ISO-8859-1") as file:
-    for movie in movies[0:100]:
+    for movie in movies:
         file.write(f"{movie}\n")
